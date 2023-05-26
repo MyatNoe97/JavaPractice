@@ -3,13 +3,13 @@ public class Palindrome {
     public static void main(String[] args) {
         String s = "radar";
         String s1 = "hello";
-        System.out.println(isPalindromeString(s));
-        System.out.println(isPalindromeString(s1));
+        System.out.println(isPalindromeString(s)); // true
+        System.out.println(isPalindromeString(s1)); // false
 
         int num = 969;
         int num1 = 72943;
-        System.out.println(isPalindromeInteger(num));
-        System.out.println(isPalindromeInteger(num1));
+        System.out.println(isPalindromeInteger(num)); // true
+        System.out.println(isPalindromeInteger(num1)); // false
     }
 
     public static boolean isPalindromeString(String s) {
